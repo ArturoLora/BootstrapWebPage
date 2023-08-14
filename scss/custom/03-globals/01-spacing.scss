@@ -1,0 +1,115 @@
+p, h1, h3, h2, h4, h5, span, a, div, .card-title, ul{
+  word-break: break-word;
+  margin: 0;
+}
+
+.row-form {
+  margin: 0;
+}
+
+.row-form + .row-form {
+  margin-top: 37px;
+}
+
+* + h1 {
+  margin-top: 10px;
+}
+
+* + h2 {
+  margin-top: 10px;
+}
+
+* + h3 {
+  margin-top: 10px;
+}
+
+* + h4 {
+  margin-top: 10px;
+}
+
+* + h5 {
+  margin-top: 10px;
+}
+
+* + span {
+  margin-top: 10px;
+}
+
+* + a {
+  margin-top: 10px;
+}
+
+* + p {
+  margin-top: 10px;
+}
+
+* + button {
+  margin-top: 40px;
+}
+* + .button-testimonials {
+  margin-top: 0;
+}
+
+.list-unstyled {
+ * + li {
+  margin-top: 10px;
+ }
+}
+
+.list-social {
+  margin-top: 0 !important;
+}
+
+* + .row {
+  margin-top: 10px;
+}
+
+* + .text-center {
+  margin-top: 30px;
+}
+
+* + section {
+  margin-top: 30px;
+}
+
+* + footer {
+  margin-top: 10px;
+}
+
+.card-pricing-col + .card-pricing-col {
+  margin-top: 65px;
+}
+
+* + .card-text {
+  margin-top: 30px;
+}
+
+* + .card-title {
+  margin-top: 65px;
+}
+
+* + .card-text-team {
+  margin-top: 10px;
+}
+
+* + ul {
+  margin-top: 10px;
+}
+
+.navbar-nav {
+  .nav-item {
+    margin-left: 10px;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+ * + .form-spacing {
+   margin-top: 35px;
+ }
+}
+
+@include media-breakpoint-up(lg) {
+ .card-pricing-col + .card-pricing-col {
+   margin-top: 1.5rem;
+ }
+}

@@ -1,0 +1,16 @@
+
+/**
+ * Custom buttons.
+ */
+
+ .custom-btn{
+   background-color: $primary;
+   color: $white;
+   @include border-radius(4px 4px 4px 4px);
+   transition: all 0.5s;
+
+   &:hover{
+     background-color: $secondary;
+     color: $white;
+   }
+ }
